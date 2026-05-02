@@ -1,7 +1,7 @@
 # Outfit Recommender V1
 
 ## Overview
-This project recommends visually similar outfits based on dominant color features.
+This is a content-based recommendation system using unsupervised learning (KMeans clustering and vector similarity)
 
 ## How it works
 - Extract dominant colors from images using KMeans
