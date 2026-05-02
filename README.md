@@ -1,65 +1,37 @@
-# Fashion Color Analyzer 🎨
+# Outfit Recommender V1
 
 ## Overview
-This project applies unsupervised learning (KMeans clustering) to real-world fashion images to automatically extract dominant color patterns.
+This project recommends visually similar outfits based on dominant color features.
 
-It demonstrates how machine learning can be used to detect visual trends in fashion datasets, which can be useful for recommendation systems and trend analysis.
-
----
+## How it works
+- Extract dominant colors from images using KMeans
+- Convert colors into feature vectors
+- Compare images using cosine similarity
+- Filter recommendations by style group
 
 ## Features
-- Extract dominant colors from images
-- Visualize color palettes
-- Analyze multiple images
-- Identify overall fashion color trends
+- Color-based similarity matching
+- Style-based filtering (e.g., streetwear, minimal)
+- Visual output of similar outfits
 
----
+## Limitations
+- Understands color similarity only
+- Does not capture full fashion semantics (shape, texture, clothing type)
 
-## Technologies Used
+## Technologies
 - Python
 - NumPy
+- Scikit-learn
 - Matplotlib
-- Pillow (PIL)
-- Scikit-learn (KMeans)
+- PIL
 
----
+## Future Work
+- Add brightness and contrast (V2)
+- Improve feature representation
+- Build a more advanced recommender system
 
-## Project Structure
-
-
-
----
-
-## How It Works
-1. Load images from dataset
-2. Extract dominant colors using KMeans
-3. Aggregate colors across images
-4. Cluster again to find main trends
-5. Visualize results
-
----
-
-## Results
-The dataset shows a strong dominance of neutral tones such as:
-- Gray
-- Black
-- Beige
-- Brown
-
----
-
-## Future Improvements
-- Use larger datasets
-- Improve clustering accuracy
-- Build a fashion recommendation system
-
----
-
-## Example Output
-
-![Color Palette](output/result.png)
-
-
+## Author
+Ousama
 
 
 
