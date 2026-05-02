@@ -35,5 +35,3 @@ Ousama
 
 
 
-## Author
-Ousama
