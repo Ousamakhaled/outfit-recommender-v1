@@ -14,6 +14,12 @@ This is a content-based recommendation system using unsupervised learning (KMean
 - Style-based filtering (e.g., streetwear, minimal)
 - Visual output of similar outfits
 
+
+## Example Output
+
+![Example Output](example_output.png)
+
+
 ## Limitations
 - Focuses primarily on color similarity
 - Does not yet capture higher-level fashion semantics (e.g., shape, texture, garment type)
@@ -29,11 +35,6 @@ This is a content-based recommendation system using unsupervised learning (KMean
 - Add brightness and contrast (V2)
 - Improve feature representation
 - Build a more advanced recommender system
-
-
-## Example Output
-
-![Example Output](example_output.png)
 
 
 ## Author
