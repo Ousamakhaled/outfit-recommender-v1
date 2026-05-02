@@ -17,7 +17,7 @@ This is a content-based recommendation system using unsupervised learning (KMean
 
 ## Example Output
 
-![Example Output](example_output.png)
+<img src="example_output.png" width="400"/>
 
 
 ## Limitations
