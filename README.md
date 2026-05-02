@@ -15,8 +15,8 @@ This project recommends visually similar outfits based on dominant color feature
 - Visual output of similar outfits
 
 ## Limitations
-- Understands color similarity only
-- Does not capture full fashion semantics (shape, texture, clothing type)
+- Focuses primarily on color similarity
+- Does not yet capture higher-level fashion semantics (e.g., shape, texture, garment type)
 
 ## Technologies
 - Python
