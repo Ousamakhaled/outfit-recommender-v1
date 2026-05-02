@@ -30,6 +30,12 @@ This is a content-based recommendation system using unsupervised learning (KMean
 - Improve feature representation
 - Build a more advanced recommender system
 
+
+## Example Output
+
+![Example Output](example_output.png)
+
+
 ## Author
 Ousama
 
